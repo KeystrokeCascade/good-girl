@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #333333;
+	width: 90%;
+	max-width: 20em;
+	margin: auto;
+	padding: 5px;
+}
+
+h1 {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin: 6px 0;
+}
+
+form {
+	display: flex;
+	gap: 6px;
+}
+
+button {
+	font: inherit;
+	color: inherit;
+	height: 1lh;
+	width: 1lh;
+	flex-shrink: 0;
+}
+
+button > span {
+	position: relative;
+	top: -.15lh;
+}
+
+input[type=text] {
+	flex-grow: 1;
+	font: inherit;
+	color: inherit;
+	padding: 0;
+	border: 0;
+	border-bottom: solid black 1px;
+}

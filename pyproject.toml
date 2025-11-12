@@ -1,0 +1,10 @@
+[project]
+name = "good-girl"
+version = "0.1.0"
+description = "A webapp to provide rewards when completing a task"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flask>=3.1.2",
+    "flask-sqlalchemy>=3.1.1",
+]
